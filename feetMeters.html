@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="text" type="text">
+<button onclick="feetConvertMeter(+document.getElementById('text').value)">Feet convert to meter</button>
+<button onclick="meterConvertFeet(+document.getElementById('text').value)">Meter convert to feet</button>
+<p id="display"></p>
+<script>
+
+    function feetConvertMeter(feet)
+    {
+        alert(feet*0.305);
+        return feet*0.305;
+    }
+    function meterConvertFeet(meter)
+    {
+        alert(meter*3.279);
+        return meter*3.279;
+    }
+
+</script>
+</body>
+</html>
